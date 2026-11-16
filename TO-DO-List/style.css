@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    border: 1px solid #434242;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px #434242;
+    padding: 10px;
+    margin: 10px;
+    width: 800px;
+    text-align: center;
+}
+
+h1 {
+    margin: 5px;
+}
+
+.input {
+    padding: 0.5rem;
+    border: 1px solid rgb(95, 95, 186);
+    margin: 2rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label {
+    text-align: center;
+}
+
+.input>input {
+    border: 1px solid rgb(95, 95, 186);
+    padding: 1rem;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.btn {
+    background: blue;
+    border: 1px solid #434242;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin: 4px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.6;
+}
+
+.secondary {
+    background-color: green;
+}
+.danger{
+    background-color: red;
+}
+
+.task{
+    padding: 5px;
+    border: 1px solid #434242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 4px;
+}
